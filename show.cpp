@@ -4,6 +4,5 @@ using namespace std;
 
 void std_sys::show(const char text[])
 {
-	int siz = sizeof(text);
-	cout << text[siz];
+	cout << text;
 }
