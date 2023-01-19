@@ -6,3 +6,9 @@ void std_sys::show(const char text[])
 {
 	cout << text;
 }
+
+void std_sys::cc()
+{
+	system("cls");
+}
+	
